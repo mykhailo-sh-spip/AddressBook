@@ -59,6 +59,9 @@ public class Main{
             default: //works like else for switch
               System.out.println("Invalid input, please try again");
               continue loop1;
+
+              //lololololollloll
+              
           }
         }
         
