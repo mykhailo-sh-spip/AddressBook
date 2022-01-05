@@ -1,13 +1,14 @@
 /*
-tasks for Toi Eik:
-1. Make a functional menu (do as many functions as you can) 
-print menu
-if choice = 1: add contact() (Contact.getInfo)
-if choice = 2: look up contact()
-...
-if choice = 5: print all() - Contact.printInfo
-2. 
+things to do for Misha:
+challenges
+(#1 read and write from file - all the changes are saved when you close the program and when you open the porgram it's going to load the text file and already have records you wrote previously)
+(#2 look up based on email)
+(#3 sort options for print all - by name, by email, by creation time)
 
+things to do for Toi Eik:
+look up function
+delete
+modify
 */
 
 import AddressBook.*;
@@ -59,9 +60,6 @@ public class Main{
             default: //works like else for switch
               System.out.println("Invalid input, please try again");
               continue loop1;
-
-              //lololololollloll
-              
           }
         }
         
