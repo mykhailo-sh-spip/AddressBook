@@ -19,7 +19,7 @@ public class Main{
     public static void mainMenu(){
         System.out.println("1.Add a new contact. ");
         System.out.println("2.Look up the contact based on name");
-        System.out.println("3.Delete a contact(after look up). ");//first will execute 
+        System.out.println("3.Delete a contact(after look up). ");//first will execute look up
         System.out.println("4.Modify a contact(after look up). ");
         System.out.println("5.Print all contacts ");
         System.out.println("6.Exit ");
@@ -27,11 +27,11 @@ public class Main{
     }
 
     public static void main(String[] args) {
-        String date = BirthdayValidation.getDate();
-        //mainMenu();
+        mainMenu();
         String choice = scan.nextLine();
-        //if choice =="1": run function for adding contacts
+        //if choice =="1": run function for adding contacts...
+
     }
 }
 
-    
+     

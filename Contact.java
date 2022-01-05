@@ -22,6 +22,4 @@ public class Contact {
             System.out.format("%24s%28s%12s%n", "Student ID: "+id.get(i), name.get(i)+" "+surname.get(i),"Grade: "+Integer.toString(score.get(i)));
         }
     }
-    p
-    
 }
