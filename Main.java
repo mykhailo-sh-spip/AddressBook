@@ -17,6 +17,7 @@ public class Main{
     private static Scanner scan = new Scanner(System.in);
 
     public static void mainMenu(){
+        System.out.println("----------------------");
         System.out.println("1.Add a new contact. ");
         System.out.println("2.Look up the contact based on name");
         System.out.println("3.Delete a contact(after look up). ");//first will execute look up
@@ -27,10 +28,25 @@ public class Main{
     }
 
     public static void main(String[] args) {
-        mainMenu();
-        String choice = scan.nextLine();
-        //if choice =="1": run function for adding contacts...
-
+        int contactCount = 0;
+        loop1: while (true){
+          mainMenu();
+          String choice = IOUtils.getString("What do you want to do?: ");
+          switch (choice){
+            case "1": //adding new contact
+              System.out.println("here we will have code for adding contacts");
+              Contact.getValidateBirthday();
+              
+              contactCount++;
+              continue loop1;
+            case "6":
+              break loop1;
+            default:
+              System.out.println("Invalid input, please try again");
+              continue loop1;
+          }
+        }
+        
     }
 }
 
